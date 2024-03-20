@@ -10,3 +10,24 @@ const watching = [
     ["Programming Parallel Computers", "https://www.youtube.com/@JukkaSuomela/playlists"],
     ["Performance Ninja Class", "https://github.com/dendibakh/perf-ninja"],
 ]
+
+const makeLink = (title, url) => {
+    const link = document.createElement('a');
+    link.href = url;
+    link.target = "_blank";
+    link.innerText = title;
+    return link;
+};
+
+const createList = (list) => {
+    const ul = document.createElement('ul');
+    list.forEach(([title, url]) => {
+        const li = document.createElement('li');
+        li.appendChild(makeLink(title, url));
+        ul.appendChild(li);
+    });
+    return ul;
+};
+
+document.getElementById('reading').appendChild(createList(reading));
+document.getElementById('watching').appendChild(createList(watching));
