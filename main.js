@@ -4,6 +4,7 @@ const reading = [
     ["Linux Programming Interface", "https://man7.org/tlpi/"],
     ["Operating Systems: Three Easy Pieces", "https://pages.cs.wisc.edu/~remzi/OSTEP/"],
     ["Build Your Own Redis with C/C++", "https://build-your-own.org/redis/"],
+    ["Database Internals", "https://www.databass.dev/"],
     ["Microprocessor Architecture: From Simple Pipelines to Chip Multiprocessors", "https://www.amazon.ca/Microprocessor-Architecture-Simple-Pipelines-Multiprocessors/dp/0521769922"],
     ["Chrys Woods: Parallel Programming with C++", "https://chryswoods.com/parallel_c++/README.html"],
     ["What Every Programmer Should Know About Memory", "https://www.akkadia.org/drepper/cpumemory.pdf"],
